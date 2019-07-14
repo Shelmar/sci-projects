@@ -1,0 +1,104 @@
+
+@media (min-width: 768px)
+_spacing.scss:62
+.mr-md-auto, .mx-md-auto {
+    margin-right: auto!important;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+@media (min-width: 768px)
+docs.min.css:37
+.bd-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+}
+.bd-navbar {
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+@media (min-width: 768px)
+_flex.scss:11
+.flex-md-row {
+    -webkit-box-orient: horizontal!important;
+    -webkit-box-direction: normal!important;
+    -ms-flex-direction: row!important;
+    flex-direction: row!important;
+}
+.flex-column {
+    -webkit-box-orient: vertical!important;
+    -webkit-box-direction: normal!important;
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+
+    }
+body{
+
+}
+
+.reg{
+	margin-left: 5%;
+}
+footer{
+}
+#page-content {
+	text-align: center;
+	font-size: 1.5rem;
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+.labe{
+	text-align: center;
+	font-size: 1.5rem;
+	margin: 5%;
+
+}
+#login{
+	margin-bottom: 5%;
+}
+#password{
+	margin-bottom: 5%;
+}
+#regin{
+	  width: 100%;
+}
+#back{
+	margin-top: 5%;
+	text-align: center;
+
+}
+#toreg{
+	margin: auto;
+}
+#signing{
+	margin-top: 10%;
+	width: 100%;
+}
